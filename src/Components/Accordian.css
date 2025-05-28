@@ -1,0 +1,40 @@
+/* .container{
+    border: 2px solid red;
+
+} */
+.container h1{
+    font-size: 2.2rem;
+    text-align: center;
+}
+.sub-container{
+    font-size: 1.2rem;
+}
+.section{
+    /* border: 2px solid green; */
+    padding: 10px;
+    margin: 0 auto;
+    width: 90%;
+}
+.Q{
+    background-color: rgb(170, 238, 243);
+    border-style: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+.Q:hover{
+    background-color: rgb(33, 187, 210);
+    transform : scale(1.1);
+
+}
+.A{
+max-height: 0;
+overflow: hidden;
+transition: max-height ease;
+}
+
+.section.active .A{
+    max-height: 500px;
+   
+}
